@@ -10,4 +10,3 @@ Tabela <- read.table("Data/dados_editados2.csv")
 
 # para ler a tabela no terminal
 read.csv2("Data/dados_editados2.csv")
-
