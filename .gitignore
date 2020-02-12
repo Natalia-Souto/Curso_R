@@ -3,6 +3,9 @@
 .RData
 .Ruserdata
 
-#ignora arquivos de excel
+# ignora arquivos de excel
+# o * significa que estamos ignorando qualquer arquivo excel dentro de qualquer pasta
 *.xlsx
+
+# ignorar pasta docs
 docs
