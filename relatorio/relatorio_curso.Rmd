@@ -2,8 +2,18 @@
 title: "relatorio_curso"
 author: "Natalia_Souto"
 date: "13/02/2020"
-output: html_document
+output:
+  word_document: default
+  reference_docx: ../Docs/template_capitulos.docx
+  html_document:
+    df_print: paged
+csl: ../citation/nature.csl
+bibliography: ../citation/AED.bib
+abstract: teste
 ---
+
+A análise exploratória de dados é essencial [@tukey_exploratory_1977]
+
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
